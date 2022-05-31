@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for interaction in {1..4} # interaction type
+do
+
+  for model in {1..3} # model choice index
+  do
+  
+    sbatch run_fit_model.slm $interaction $model
+    
+  done
+
+done

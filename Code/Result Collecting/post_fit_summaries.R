@@ -1,13 +1,15 @@
 # packages ----
 
 library(haven) # data import
-library(tidyverse) # just bare stuff for R
-library(SUMMER) # U5MR package from wakeyyy
+library(latex2exp) # latex formula in plots
+library(tidyverse) # data wrangling
+library(SUMMER) # U5MR package
 library(foreign) # importing data
 library(INLA) # fitting models
+library(patchwork) # putting ggplots together
+library(farver) # for plots with latex labels
 library(rgdal) # spatial modelling
-library(patchwork) # combining ggplots
-
+library(ggforce) # multi page facet
 # DHS  ----
 
 ## path to all kenya folders ----
